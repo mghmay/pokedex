@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<header>
+		<h1>Pokedex</h1>
+	</header>
+	<body>
+		<div id="container">
+			<div id="pokedex-container">
+				<div class="viewing-container">
+					<div id="viewer">
+						<div class="text-container">
+							<h2 id="pokemon-name" class="top"></h2>
+							<h3 id="pokemon-number"></h3>
+						</div>
+						<div id="image-container"></div>
+						<h3 id="pokemon-types" class="bottom"></h3>
+					</div>
+				</div>
+				<div class="searching-container">
+					<div id="information">
+						<h4 id="height"></h4>
+						<h4 id="weight"></h4>
+						<h4 id="base_experience"></h4>
+						<h4 id="abilities-label"></h4>
+						<ul id="abilities"></ul>
+						<h4 id="stats-label"></h4>
+						<ul id="stats"></ul>
+					</div>
+					<div id="search-container">
+						<form method="GET" submit="search" id="search">
+							<input
+								type="text"
+								name="search"
+								placeholder="Search"
+								id="search-input"
+							/>
+							<button type="submit" form="search" value="Submit">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="module" src="script.js"></script>
+	</body>
+</html>
