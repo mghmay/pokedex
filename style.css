@@ -18,7 +18,6 @@ h4 {
 
 ul {
 	margin: 0 auto;
-	columns: 2;
 }
 
 body {
@@ -90,7 +89,7 @@ body {
 /* right-hand container */
 
 .searching-container {
-	height: 350px;
+	height: 400px;
 	width: 300px;
 	background-color: var(--pokedex-colour);
 	border: black 1px solid;
@@ -102,7 +101,7 @@ body {
 }
 
 #information {
-	height: 280px;
+	height: 340px;
 	width: 280px;
 	background-color: var(--information-colour);
 }
@@ -112,4 +111,10 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+#flavor-text {
+	font-size: 12.5px;
+	font-style: italic;
+	text-align: center;
 }
